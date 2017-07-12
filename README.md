@@ -10,3 +10,6 @@ Deep Learning Courses (2017):
 ## Interview Prep Material
 
 https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/
+
+Very Nice Ebook stuff:
+http://ebook-dl.com/computers-technology/page/8
