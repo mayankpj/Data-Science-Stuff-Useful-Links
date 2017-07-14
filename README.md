@@ -13,3 +13,6 @@ https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-sta
 
 Very Nice Ebook stuff:
 http://ebook-dl.com/computers-technology/page/8
+
+Articles to be read:
+http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/
