@@ -5,7 +5,24 @@ Deep Learning Courses (2017):
 * Natural Language Processing with Deep Learning (https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
 * Tensorflow and deep learning - without a PhD by Martin Görner
 * CS231n Winter 2016 https://www.youtube.com/watch?v=NfnWJUyUJYU&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC
+* CS205A Numerical Analysis (with Justin Solomon) MIT
+https://www.youtube.com/watch?v=dkT8yuI2d50&list=PLHrg69yaUAPeiLEsa-1KauSe2HaA0Wf6I
+* Alex Smola (Oxford):
+.....
+.....
+* David Rosenberg (DS GA 1003)
+https://davidrosenberg.github.io/ml2017
+* 
 
+
+## Basics
+* MIT - Probability 110 Joe Blitztein (https://projects.iq.harvard.edu/stat110/home)
+
+* Gilbert Strang (http://www-math.mit.edu/~gs/)
+His Student: 
+
+## Data Science Stuff General Lectures and Conferences:
+* Open Data Science Iniative https://www.youtube.com/user/ProfNeilLawrence/videos
 
 ## Interview Prep Material
 
