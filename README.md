@@ -36,5 +36,12 @@ https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-sta
 Very Nice Ebook stuff:
 http://ebook-dl.com/computers-technology/page/8
 
+
+## Concepts and misclleneous:
+* Machine learning tips and tricks: 
+http://web.archive.org/web/20161017074325/http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/
+* Gaussian processes tutorial: http://katbailey.github.io/post/gaussian-processes-for-dummies/
+
+
 Articles to be read:
 http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/
