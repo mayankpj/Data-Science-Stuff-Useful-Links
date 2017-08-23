@@ -12,7 +12,12 @@ https://www.youtube.com/watch?v=dkT8yuI2d50&list=PLHrg69yaUAPeiLEsa-1KauSe2HaA0W
 .....
 * David Rosenberg (DS GA 1003)
 https://davidrosenberg.github.io/ml2017
-* 
+* Nano De Freitas https://www.cs.ox.ac.uk/people/nando.defreitas/
+* machine learning UG course: https://www.youtube.com/playlist?list=PLE6Wd9FR--Ecf_5nCbnSQMHqORpiChfJf
+* Deep Learning https://www.youtube.com/playlist?list=PLE6Wd9FR--EfW8dtjAuPoTuPcqmOV53Fu
+
+## Algorithms:
+* 6.854/18.415 Advanced Algorithms by Ankur Moitra (http://people.csail.mit.edu/moitra/854.html) Youtube Playlist (https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
 
 ## Basics
