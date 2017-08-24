@@ -38,12 +38,12 @@ http://ebook-dl.com/computers-technology/page/8
 
 
 # Computer Science Course List of Top ranked Universities, useful to find new free online material from classroom lectures
-#. Georgia Tech: http://www.omscs.gatech.edu/current-courses
-  #. Course on ML for Trading, FREE: It has three courses:
-    #. http://quantsoftware.gatech.edu/Machine_Learning_for_Trading_Course
-    #. http://quantsoftware.gatech.edu/Learning_Algorithms_for_Trading
-    #. http://quantsoftware.gatech.edu/Computational_Investing
-    #. http://quantsoftware.gatech.edu/Manipulating_Financial_Data_in_Python
+1. Georgia Tech: http://www.omscs.gatech.edu/current-courses
+  1. Course on ML for Trading, FREE: It has three courses:
+    1. http://quantsoftware.gatech.edu/Machine_Learning_for_Trading_Course
+    1. http://quantsoftware.gatech.edu/Learning_Algorithms_for_Trading
+    1. http://quantsoftware.gatech.edu/Computational_Investing
+    1. http://quantsoftware.gatech.edu/Manipulating_Financial_Data_in_Python
     
 
 ## Concepts and misclleneous:
