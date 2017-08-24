@@ -37,6 +37,15 @@ Very Nice Ebook stuff:
 http://ebook-dl.com/computers-technology/page/8
 
 
+# Computer Science Course List of Top ranked Universities, useful to find new free online material from classroom lectures
+#. Georgia Tech: http://www.omscs.gatech.edu/current-courses
+  #. Course on ML for Trading, FREE: It has three courses:
+    #. http://quantsoftware.gatech.edu/Machine_Learning_for_Trading_Course
+    #. http://quantsoftware.gatech.edu/Learning_Algorithms_for_Trading
+    #. http://quantsoftware.gatech.edu/Computational_Investing
+    #. http://quantsoftware.gatech.edu/Manipulating_Financial_Data_in_Python
+    
+
 ## Concepts and misclleneous:
 * Machine learning tips and tricks: 
 http://web.archive.org/web/20161017074325/http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/
