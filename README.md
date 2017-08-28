@@ -54,3 +54,7 @@ http://web.archive.org/web/20161017074325/http://blog.david-andrzejewski.com/mac
 
 Articles to be read:
 http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/
+
+Dockers, Linux, General Stuff:
+
+https://linuxconfig.org/docker-container-backup-and-recovery
