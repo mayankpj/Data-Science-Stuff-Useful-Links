@@ -37,6 +37,54 @@ Very Nice Ebook stuff:
 http://ebook-dl.com/computers-technology/page/8
 
 
+
+Difference between variable_scope and name_scope in TensorFlow
+https://stackoverflow.com/questions/34215746/difference-between-variable-scope-and-name-scope-in-tensorflow
+
+
+LSTM, good blogs:
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/ -- Jump to this part: Step-by-Step LSTM Walk Through
+
+
+An all-in-one Docker image for deep learning. Contains all the popular DL frameworks (TensorFlow, Theano, Torch, Caffe, etc.) 
+https://github.com/floydhub/dl-docker
+
+Remove Docker Image:
+docker rmi <Image ID>
+
+remove docker container:
+docker rm <container_name>
+
+All containers must be stopped before being removed:
+
+to shutdown gracefully: docker stop <container_name>
+to kill a ruuning cont: docker kill <container_name>
+
+List all containers, running and stopped:
+docker ps -a
+
+you can remove a single image with:
+
+docker rmi the_image
+
+However, if you need to remove multiple you could use:
+Remove all images
+
+docker rmi $(docker images -qf "dangling=true")
+
+Kill containers and remove them:
+docker rm $(docker kill $(docker ps -aq))
+
+Note: Replace kill with stop for graceful shutdown
+Remove all images except "my-image"
+
+You could use grep to remove all except my-image and ubuntu
+docker rmi $(docker images | grep -v 'ubuntu\|my-image' | awk {'print $3'})
+
+Or (without awk)
+docker rmi $(docker images --quiet | grep -v $(docker images --quiet ubuntu:my-image))
+
+
 # Computer Science Course List of Top ranked Universities, useful to find new free online material from classroom lectures
 1. Georgia Tech: http://www.omscs.gatech.edu/current-courses
   1. Course on ML for Trading, FREE: It has three courses:
