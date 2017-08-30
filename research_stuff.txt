@@ -1,1 +1,0 @@
-Docker might fail to write or remove folders etc. due to issue with Redhat/CentOS file system issues: 
