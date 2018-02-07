@@ -1,0 +1,59 @@
+# IMPORTS
+import nimble as nm
+#nm.print_all_ipython_imports()
+from glue import qglue
+import pandas as pd
+import numpy as np
+import sklearn as sk
+import matplotlib.pyplot as plt
+pd.options.display.mpl_style = 'default'
+%matplotlib inline
+from pandas.tools.plotting import scatter_matrix, scatter_plot
+import seaborn as sb
+import datetime as dt
+from IPython.display import display
+import os
+from __future__ import print_function
+import math
+
+# Reading the files
+for root,dir,files in os.walk('..\competition_data'):
+    #print(root)
+    print(files)
+
+all_table_dfs = {}
+for rdb_table in files:
+    #print(rdb_table)
+    all_table_dfs[rdb_table[:-4]] = pd.read_csv(os.path.join(root,rdb_table))
+    all_table_dfs[rdb_table[:-4]].tname = rdb_table[:-4]
+
+#print([df.tname for df in all_table_dfs.values()])
+    
+for df in all_table_dfs.values():
+    if 'tube_assembly_id' in df.columns:
+        index_col = 'tube_assembly_id'
+    if 'end_form_id' in df.columns:
+        index_col = 'end_form_id'
+    if 'component_id' in df.columns:
+        index_col = 'component_id'
+    if df.tname == 'type_component':
+        index_col = 'component_type_id'
+    if df.tname == 'type_connection':
+        index_col = 'connection_type_id'
+    df.index = df[index_col]
+    df.drop(index_col,1,inplace=True)
+    #print(df.info())
+'''
+out_xlFile = pd.ExcelWriter('cat_price_data.xlsx')
+for df in all_table_dfs.values():
+    df.to_excel(out_xlFile,sheet_name=df.tname)
+out_xlFile.save()
+'''
+def add_ui(df,colname,prefix='nfea_',level = 1):
+    val_cts = df[colname].value_counts()
+    col_ui = val_cts.sum()/val_cts
+    col_ui.name = prefix + colname + '_ui' + str(level)
+    df = df.join(col_ui,on=colname)
+    df[col_ui.name].fillna(0,inplace=True)
+    return df
+
